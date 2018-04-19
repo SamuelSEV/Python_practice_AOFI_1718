@@ -7,9 +7,9 @@ semana=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"
 print ("¿Que comida quiere para esta semana?")
 time.sleep(2)
 for dia in semana:
-		comida=input("¿Que quiere de Almuerzo\n")
+		comida=input(dia + ": ¿Que quiere de Almuerzo?\n")
 		Almuerzo[dia]=comida
-		comida=input("¿Que quiere de Cena?\n")
+		comida=input(dia + ": ¿Que quiere de Cena?\n")
 		Cena[dia]=comida
 print("Menu para semana")
 time.sleep(2)
